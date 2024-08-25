@@ -2,7 +2,8 @@ import openai
 import os
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"]="sk-DX1STMau-CZLq9pj-owP5dAHdRxO_M0wFTbxhLoZYDT3BlbkFJgnGIRcZuv0M6OfHdzZbXhhPO1BqPSbV3vprgJj2GYA"
+
+os.environ["OPENAI_API_KEY"]="OPENAI_KEY"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Function to read content from a text file

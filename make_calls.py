@@ -14,11 +14,11 @@ from llm_convo.twilio_io import TwilioServer
 from llm_convo.conversation import run_conversation
 from pyngrok import ngrok
 from twilio.rest import Client
-account_sid = "ACea42a495e2efaba0ae76f9aac47f0666"
-auth_token = "f590621b33edb256d0811003ae738f29"
+account_sid = "TWILIO_SID"
+auth_token = "TWILIO_AUTH_TOKEN"
 
 
-os.environ["OPENAI_API_KEY"]="sk-DX1STMau-CZLq9pj-owP5dAHdRxO_M0wFTbxhLoZYDT3BlbkFJgnGIRcZuv0M6OfHdzZbXhhPO1BqPSbV3vprgJj2GYA"
+os.environ["OPENAI_API_KEY"]="OPENAI_KEY"
             #OPENAI_API_KEY
 
 def main(port, remote_host, start_ngrok, phone_number):

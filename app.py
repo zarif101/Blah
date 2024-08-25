@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import subprocess
 import get_info
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'  # Required for session management
+app.secret_key = #FLASK KEY
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
